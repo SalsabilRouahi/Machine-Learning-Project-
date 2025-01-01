@@ -67,4 +67,23 @@ from sklearn.model_selection import train_test_split
 train_texts, test_texts = train_test_split(df, test_size=0.2, random_state=42)
 
 print(f"Train size: {len(train_texts)}")
-print(f"Test size: {len(test_texts)}")
+print(f"Test size: {len(test_texts)}")  
+
+from transformers import AutoTokenizer
+from datasets import Dataset
+
+# Convert to Hugging Face Dataset
+train_dataset = Dataset.from_pandas(train_texts)
+test_dataset = Dataset.from_pandas(test_texts)
+
+# Initialize tokenizer
+tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+
+# Tokenization function
+def preprocess_function(examples):
+    return tokenizer(examples["text"], truncation=True, padding="max_length", max_length=512)
+
+# Apply tokenization
+train_dataset = train_dataset.map(preprocess_function, batched=True)
+test_dataset = test_dataset.map(preprocess_function, batched=True)
+
