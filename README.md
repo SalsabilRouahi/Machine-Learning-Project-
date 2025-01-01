@@ -1,4 +1,13 @@
 # Projet de Classification des Fichiers JSON dans le Domaine de la Médecine Reproductive
+## À propos de l'auteur
+
+### **Salsabil Rouahi**
+
+Je suis actuellement élève ingénieur en 3ème année à l'École Nationale d'Ingénieurs de Tunis (ENIT) dans le programme **Minds (Modélisation pour l'Industrie et les Services)** avec une spécialisation en **Modélisation et Data Science**. En parallèle, je poursuis un **Master en Traitement de l'Information et Complexité du Vivant (TICV)** à l'Université de Paris.
+
+Mon expertise se situe dans la **modélisation mathématique**, le **machine learning**, la **data science**, ainsi que l'analyse de données complexes, en particulier pour des applications dans des domaines tels que la bioinformatique, la gestion de données et la simulation numérique.
+
+Je suis passionnée par les défis techniques et scientifiques et je m'efforce de trouver des solutions innovantes et efficaces dans mes projets de modélisation et de data science.
 
 ## Introduction
 
