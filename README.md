@@ -61,3 +61,39 @@ Ce projet a permis d'appliquer des techniques de traitement de texte et de machi
 
 Voici la structure des fichiers du projet :
 
+## Comment Exécuter le Projet
+
+1. Clonez le dépôt :
+    ```bash
+    git clone <URL_du_depot>
+    cd <nom_du_dossier_du_depot>
+    ```
+
+2. Installez les dépendances :
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Exécutez le script de prétraitement pour nettoyer et préparer les données :
+    ```bash
+    python preprocess_data.py
+    ```
+
+4. Entraînez le modèle de machine learning :
+    ```bash
+    python train_model.py
+    ```
+
+5. Évaluez les résultats du modèle :
+    ```bash
+    python evaluate_model.py
+    ```
+
+## Remerciements
+
+Je tiens à remercierTanit AI pour cette opportunité  et leurs conseils tout au long de ce projet. Ce projet a permis de démontrer l'application de modèles de machine learning dans le domaine de la médecine reproductive, un domaine avec un grand potentiel pour améliorer les soins aux patients.
+
+## License
+
+Ce projet est sous la licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
